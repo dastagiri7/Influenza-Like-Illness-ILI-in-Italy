@@ -18,6 +18,7 @@ The purpose of this assignment is to develop a statistical model to provide near
 
 1. Data Collection and Transformation
 2. Data Correlation Analysis:
+   
    2.1 Influenza page view time series from 2015 to 2018.
    
    2.2 Influenza and Influnet time series from 2015 to 2018.
@@ -28,6 +29,7 @@ The purpose of this assignment is to develop a statistical model to provide near
    
    2.5 Find the pages which are closely related to Influnet data by Pearson correlation coefficient
 3. Regression Analysis (Multiple Linear Regression and Lasso):
+   
    3.1 Build a regression model that predicts the Influnet incidence for a given week based on the Wikipedia pageview data for the same week.
    
    3.2 Add new features to your model to include data from the preceding week.
