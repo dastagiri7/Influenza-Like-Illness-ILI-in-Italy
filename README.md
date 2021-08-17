@@ -19,16 +19,22 @@ The purpose of this assignment is to develop a statistical model to provide near
 1. Data Collection and Transformation
 2. Data Correlation Analysis:
    2.1 Influenza page view time series from 2015 to 2018.
+   
    2.2 Influenza and Influnet time series from 2015 to 2018.
+   
    2.3 Find other Wikipedia pages related to flu whose pageview time series are correlated with the Influnet signal. 
+   
    2.4 Find the pages which are closely related to Influenza page by Pearson correlation coefficient.
+   
    2.5 Find the pages which are closely related to Influnet data by Pearson correlation coefficient
 3. Regression Analysis (Multiple Linear Regression and Lasso):
    3.1 Build a regression model that predicts the Influnet incidence for a given week based on the Wikipedia pageview data for the same week.
+   
    3.2 Add new features to your model to include data from the preceding week.
 
 # Consolidation of results
 3.1 - Multiple linear regression - Mean squared error: 0.18 Variance score: 0.89 LASSO - Mean squared error: 0.06 Variance score: 0.94
+
 3.2 - Multiple linear regression - Mean squared error: 1.23 Variance score: -0.23 LASSO - Mean squared error: 0.06 Variance score: 0.94
 
 As we can observe, with the actual dataset both the regression model performed comparatively well with LASSO having the best performance.
